@@ -11,7 +11,7 @@ new_emot = {"get_meaning" => {}, "get_emoticon" => {}}
 return new_emot
 end
 ######################################################################
-def get_japanese_emoticon(path,emoji)
+def get_japanese_emoticon(path,emot)
   # code goes here
 end
 ######################################################################
