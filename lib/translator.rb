@@ -1,8 +1,8 @@
-# require modules here
+require "emoticons"
 
 def load_library
 
-
+emoticons =
 return emoticons
 end
 
