@@ -16,7 +16,7 @@ p e_emot
     if res["get_emoticon"].include?(e_emot)
         res["get_emoticon"][e_emot]
     else
-    "sorry emote can not be found"
+      "Sorry, that emoticon was not found"
     end
 end
 ######################################################################
