@@ -10,7 +10,7 @@ new_emot = {"get_meaning" => {}, "get_emoticon" => {}}
 return new_emot
 end
 ######################################################################
-def get_japanese_emoticon(file_path = './lib/emoticons.yml', emot)
+def get_japanese_emoticon(file_path = './lib/emoticons.yml', e_emot)
   res = load_library(file_path)
 
   if res["get_emoticon"].include?(emot)
