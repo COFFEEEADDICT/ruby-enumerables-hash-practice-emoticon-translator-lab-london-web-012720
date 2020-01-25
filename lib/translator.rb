@@ -23,5 +23,10 @@ end
 def get_english_meaning(file_path = './lib/emoticons.yml', e_emot)
     final = load_library(file_path)
 
-end
+    if res["get_emoticon"].include?(e_emot)
+        res["get_emoticon"][e_emot]
+    else
+      "Sorry, that emoticon was not found"
+    end
+  end
 ######################################################################
