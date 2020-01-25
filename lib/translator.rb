@@ -8,7 +8,7 @@ new_emot = {"get_meaning" => {}, "get_emoticon" => {}}
         new_emot["get_emoticon"] = value[0]
         #pp new_emot
       end
-return emotes
+return new_emot
 end
 ######################################################################
 def get_japanese_emoticon
