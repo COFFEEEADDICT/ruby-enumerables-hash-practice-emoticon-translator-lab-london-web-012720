@@ -12,7 +12,6 @@ end
 ######################################################################
 def get_japanese_emoticon(file_path = './lib/emoticons.yml', emot)
   res = load_library(file_path)
-puts res
   if res[1][emot] = emot
   return res[1][emot]
   else
