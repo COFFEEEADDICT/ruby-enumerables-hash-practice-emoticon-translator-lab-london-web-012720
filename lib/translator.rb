@@ -1,6 +1,6 @@
 require "yaml"
 ######################################################################
-def load_library(yml_file)
+def load_library(file_path)
 emotes = YAML.load_file(yml_file)
 pp emotes
       emotes.each do |key,value|
