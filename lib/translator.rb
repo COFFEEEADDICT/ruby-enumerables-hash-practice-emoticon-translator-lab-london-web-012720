@@ -3,7 +3,7 @@ require "yaml"
 def load_library(yml_file)
 emotes = YAML.load_file(yml_file)
     emotes.each do |key,value|
-      pp key
+      emotes[:get_meaning] = key
     end
 return emotes
 end
