@@ -13,7 +13,9 @@ end
 def get_japanese_emoticon(path,emot)
   emotes = YAML.load_file(path)
   res = load_library(path)
-  res[1][emot]
+puts emot
+  if res[1][emot] = emot
+  return res[1][emot]
 end
 ######################################################################
 def get_english_meaning
