@@ -12,6 +12,7 @@ return new_emot
 end
 ######################################################################
 def get_japanese_emoticon(path,emot)
+  emotes = YAML.load_file(file_path)
 
 end
 ######################################################################
