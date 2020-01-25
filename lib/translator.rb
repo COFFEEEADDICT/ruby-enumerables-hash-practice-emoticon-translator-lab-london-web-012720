@@ -1,7 +1,6 @@
 require "emoticons"
 
 def load_library
-
 emoticons = emoticons.load_library("emoticons.yml")
 return emoticons
 end
