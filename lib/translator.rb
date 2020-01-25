@@ -20,7 +20,7 @@ def get_japanese_emoticon(file_path = './lib/emoticons.yml', e_emot)
     end
 end
 ######################################################################
-def get_english_meaning(file_path = './lib/emoticons.yml', e_emot)
+def get_english_meaning(file_path = './lib/emoticons.yml', j_emot)
     final = load_library(file_path)
 
     if res["get_emoticon"].include?(e_emot)
