@@ -13,7 +13,6 @@ end
 ######################################################################
 def get_japanese_emoticon(path,emot)
   emotes = YAML.load_file(file_path)
-
 end
 ######################################################################
 def get_english_meaning
