@@ -22,5 +22,6 @@ end
 ######################################################################
 def get_english_meaning(file_path = './lib/emoticons.yml', e_emot)
     final = load_library(file_path)
+
 end
 ######################################################################
