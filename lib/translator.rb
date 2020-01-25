@@ -2,7 +2,9 @@ require "yaml"
 ######################################################################
 def load_library(yml_file)
 emotes = YAML.load_file(yml_file)
+pp emotes
     emotes.each do |key,value|
+
     end
 return emotes
 end
