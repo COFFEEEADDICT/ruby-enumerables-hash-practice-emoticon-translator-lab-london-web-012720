@@ -16,6 +16,9 @@ def get_japanese_emoticon(path,emot)
 puts emot
   if res[1][emot] = emot
   return res[1][emot]
+  else
+    "sorry emote can not be found"
+  end
 end
 ######################################################################
 def get_english_meaning
