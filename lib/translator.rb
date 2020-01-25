@@ -11,7 +11,6 @@ return new_emot
 end
 ######################################################################
 def get_japanese_emoticon(file_path = './lib/emoticons.yml', emot)
-  emotes = YAML.load_file(file_path)
   res = load_library(file_path)
 puts emot
   if res[1][emot] = emot
